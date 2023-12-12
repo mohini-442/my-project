@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Nav from './assets/components/Nav';
+import Firstsection from './assets/components/Firstsection';
+import Section2 from './assets/components/Section2';
+import Timeline from './assets/components/Timeline';
+import Accordiansection from './assets/components/Accordiansection';
+import Section3 from './assets/components/Section3';
+import Footersection from './assets/components/Footersection';
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Firstsection />
+      <Section2 />
+      <Timeline />
+      <Accordiansection />
+      <Section3 />
+      <Footersection />
     </div>
   );
 }
